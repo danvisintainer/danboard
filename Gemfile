@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'gon'
 gem 'twitter-bootstrap-rails'
 gem 'rails_12factor'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
