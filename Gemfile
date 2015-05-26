@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 
+gem 'twitter-bootstrap-rails'
+gem 'rails_12factor'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use SCSS for stylesheets
