@@ -9,6 +9,7 @@ $(function() {
 
   drawGDPChart();
   drawOutlaysChart();
+  $( "#datepicker" ).datepicker();
 
 });
 
