@@ -69,7 +69,7 @@ function drawGDPChart() {
         .attr("y", 6)
         .attr("dy", ".71em")
         .style("text-anchor", "end")
-        .text("GDP");
+        .text("GDP ($ Billion)");
 
     svg.selectAll(".bar")
         .data(data)
