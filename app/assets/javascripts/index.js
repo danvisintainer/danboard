@@ -21,8 +21,17 @@ function updateUptime(){
 function secondsToString(seconds) {
   var numdays = Math.floor((seconds % 31536000) / 86400); 
   var numhours = Math.floor(((seconds % 31536000) % 86400) / 3600);
+  if (numhours < 10) {
+    numhours = '0' + numhours;
+  }
   var numminutes = Math.floor((((seconds % 31536000) % 86400) % 3600) / 60);
+  if (numminutes < 10) {
+    numminutes = '0' + numminutes;
+  }
   var numseconds = (((seconds % 31536000) % 86400) % 3600) % 60;
+  if (numseconds < 10) {
+    numseconds = '0' + numseconds;
+  }
   return numdays + " days, " + numhours + ":" + numminutes + ":" + numseconds;
 }
 
